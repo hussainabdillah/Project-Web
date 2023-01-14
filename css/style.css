@@ -75,7 +75,7 @@ border: 2px solid #FFFFFF;
 
 .home {
 padding-top: 8rem;
-background-image: url(large-triangles.svg);
+background-image: url(/assets/large-triangles.svg);
 height: 280vh;
 }
 
