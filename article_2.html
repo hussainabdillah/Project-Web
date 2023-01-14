@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Article Technology</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <nav class="top__nav"> 
+        <div class="nav__title">
+            <div class="nav__up-text">
+                <p>Article Technology</p>
+            </div>
+            <div class="nav__bot-text">
+                <p>collection of technology article</p>
+            </div>
+        </div>
+
+        <div class="nav__list" >
+            <ul>
+                <li><a href="homepage.html" target="_blank">Homepage</a></li>
+                <li><a href="#about">Profile</a></li>
+                <li><a href="#sidebar">List Article</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="hr__line">
+            <hr>
+        </div>
+    </nav>
+    
+    <section class="home section" id="home">
+
+        <div>
+            <p class="tag1">Technology</p>
+        </div>
+        <div>
+            <p class="tag2">Cloud</p>
+        </div>
+
+        <div>
+            <h1 class="title_1">Cloud Computing Using Software on the Internet</h1>
+        </div>
+
+        <div>
+            <p class="date">25 December 2021 22:15</p>
+        </div>
+        
+        <div id="sidebar">
+            <p class="recent">Recent Posts</p>
+            <ul class="listpost">
+                <li><a href="article_2.html" target="_blank">Cloud Computing Using Software on the Internet</a></li><br>
+                <li><a href="article_3.html" target="_blank">Information Technology and Development of its Numerous Aspects</a></li><br>
+                <li><a href="article_4.html" target="_blank">Automakers Produce Cars of the Future</a></li><br>
+                <li><a href="article_5.html" target="_blank">The New Google Earth</a></li>
+            </ul>
+            <p class="time">Time</p>
+            <h1 id="jam"></h1>
+            <script type="text/javascript">
+                window.onload = function() { jam(); }
+               
+                function jam() {
+                 var e = document.getElementById('jam'),
+                 d = new Date(), h, m, s;
+                 h = d.getHours();
+                 m = set(d.getMinutes());
+                 s = set(d.getSeconds());
+               
+                 e.innerHTML = h +':'+ m +':'+ s;
+               
+                 setTimeout('jam()', 1000);
+                }
+               
+                function set(e) {
+                 e = e < 10 ? '0'+ e : e;
+                 return e;
+                }
+            </script>
+        </div>
+
+        <div>
+            <p class="article">
+                Cloud computing means using software that is installed on the Internet. You can also save your work on another computer instead of the hard drive of your own PC or laptop. Music, letters, presentations and other projects can be stored on clouds, data storage areas on giant servers on the Internet.
+                <br><br> There are many so-called web applications that can do the same as normal desktop software. Google Documents, for example, gives you a text editor, a slide show application and a program for creating tables and diagrams. You can use these programs for free – from any computer all over the world.
+                <br><br> Up to now web browsers were only used to search for information on the Internet and show it. But now they have become something like operating systems which can give you almost everything that you have on your own PC desktop.
+                <br><br> <img src="cloud.png" alt="">
+                <br><br> Cloud computing can also be cheaper than buying expensive software. Many basic applications on the net are free, but you may have to pay to use some of the more complex programs. Companies do not have to buy expensive software licenses for all their workers and computers do not have to be better and more powerful all the time because all you need is a simple web browser, like the Internet Explorer and Firefox.
+                <br><br> Cloud computing allows people from different parts of the world to work on a project together. Teachers and pupils, for example, might work on the same text together. Companies around the world can work together on a single computer and do not have to send data back and forth.
+                <br><br> There are, however, some things that make computer users sceptical. One of the big problems is security. With cloud computing, you give your data to someone else. Users are also worried that they might lose their data on other computers. In any case, cloud computing is marching forward and in a few years, we may only be having a web browser running on our PCs.
+                <br><br> Telkom Group is one of the providers of cloud services in Indonesia. There are still many cloud services in Indonesia that were already present before the Telkom Group.
+                <br><br> Of the many Cloud Services, it is currently recorded that dozens of companies, both domestic and international from various sectors, are using Telkom's cloud.
+                <br><br> Among them, such as Government, Financial Services, Banking, Utilities, Digital Services and BUMN have used cloud services from the Telkom Group.
+                
+            </p>
+        </div>
+
+        <div class="about">
+            <p id="about">About Us</p>
+            <div class="hussain">
+                <a href="https://www.instagram.com/hussainabdillah/"><img class="ppHussain" src="ppHussain.jpg" alt=""></a>
+                <p class="namehussain">Hussain Abdillah Tugas K.</p>
+                <p class="about_hussain">Hi my name Hussain Abdillah,  I’m an Information Technology student at the Universitas Muhammadiyah Surakarta. I live in Garut, west java. I love playing video games and I like to learn something new. I'm still in the learning stage of programming, so if you have any input please contact me.</p>
+            </div>
+            
+            <div class="pandu">
+                <a href="https://www.instagram.com/pan_wjy/"><img class="ppPandu" src="ppPandu.jpeg" alt=""></a>
+                <p class="namepandu">Pandu Putra Wijaya</p>
+                <p class="about_pandu">Hi my name Pandu Putra Wijaya, my major is Information Technology. I was born in August 14 2003. I live in Jepara, Central Java. I doesn't have any achievements yet. My hobbies is playing games and listening to music.</p>
+            </div>
+
+            <div class="ferdinand">
+                <a href="https://www.instagram.com/frbmga_/"><img class="ppFerdinand" src="ppFerdinand.jpeg" alt=""></a>
+                <p class="nameferdinand">Ferdinand Bima Anggara</p>
+                <p class="about_ferdinand">Hi my name Ferdinand Bima Anggara,   my major is Information Technology. I was born in January 11 2003. I live in Kotabaru, South Kalimantan.  I once won 3rd place in POPDA Tennis, and 1st place in the Scout Competition in Central Java . My hobbies is playing Tennis and Mountain climbing.</p>
+            </div>
+        </div>
+
+        <div class="contact"></div>
+            <p id="contact">Contact us</p>
+
+            <div class="location">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                viewBox="0 0 297 297" style="enable-background:new 0 0 297 297;" xml:space="preserve">
+                <g>
+                    <path d="M148.5,0C87.43,0,37.747,49.703,37.747,110.797c0,91.026,99.729,179.905,103.976,183.645
+                        c1.936,1.705,4.356,2.559,6.777,2.559c2.421,0,4.841-0.853,6.778-2.559c4.245-3.739,103.975-92.618,103.975-183.645
+                        C259.253,49.703,209.57,0,148.5,0z M148.5,272.689c-22.049-21.366-90.243-93.029-90.243-161.892
+                        c0-49.784,40.483-90.287,90.243-90.287s90.243,40.503,90.243,90.287C238.743,179.659,170.549,251.322,148.5,272.689z"/>
+                    <path d="M148.5,59.183c-28.273,0-51.274,23.154-51.274,51.614c0,28.461,23.001,51.614,51.274,51.614
+                        c28.273,0,51.274-23.153,51.274-51.614C199.774,82.337,176.773,59.183,148.5,59.183z M148.5,141.901
+                        c-16.964,0-30.765-13.953-30.765-31.104c0-17.15,13.801-31.104,30.765-31.104c16.964,0,30.765,13.953,30.765,31.104
+                        C179.265,127.948,165.464,141.901,148.5,141.901z"/>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                </svg>
+            </div>
+            <p class="location_text">Ahmad Yani street, Pabelan, Kartasura, Surakarta 57162, Central Java, Indonesia</p>
+
+            <div class="mail">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 474 474" style="enable-background:new 0 0 474 474;" xml:space="preserve">
+                <g>
+                    <path d="M437.5,59.3h-401C16.4,59.3,0,75.7,0,95.8v282.4c0,20.1,16.4,36.5,36.5,36.5h401c20.1,0,36.5-16.4,36.5-36.5V95.8
+                        C474,75.7,457.6,59.3,437.5,59.3z M432.2,86.3L239.5,251.1L46.8,86.3H432.2z M447,378.2c0,5.2-4.3,9.5-9.5,9.5h-401
+                        c-5.2,0-9.5-4.3-9.5-9.5V104.9l203.7,174.2c0.1,0.1,0.3,0.2,0.4,0.3c0.1,0.1,0.3,0.2,0.4,0.3c0.3,0.2,0.5,0.4,0.8,0.5
+                        c0.1,0.1,0.2,0.1,0.3,0.2c0.4,0.2,0.8,0.4,1.2,0.6c0.1,0,0.2,0.1,0.3,0.1c0.3,0.1,0.6,0.3,1,0.4c0.1,0,0.3,0.1,0.4,0.1
+                        c0.3,0.1,0.6,0.2,0.9,0.2c0.1,0,0.3,0.1,0.4,0.1c0.3,0.1,0.7,0.1,1,0.2c0.1,0,0.2,0,0.3,0c0.4,0,0.9,0.1,1.3,0.1l0,0l0,0
+                        c0.4,0,0.9,0,1.3-0.1c0.1,0,0.2,0,0.3,0c0.3,0,0.7-0.1,1-0.2c0.1,0,0.3-0.1,0.4-0.1c0.3-0.1,0.6-0.2,0.9-0.2c0.1,0,0.3-0.1,0.4-0.1
+                        c0.3-0.1,0.6-0.2,1-0.4c0.1,0,0.2-0.1,0.3-0.1c0.4-0.2,0.8-0.4,1.2-0.6c0.1-0.1,0.2-0.1,0.3-0.2c0.3-0.2,0.5-0.3,0.8-0.5
+                        c0.1-0.1,0.3-0.2,0.4-0.3c0.1-0.1,0.3-0.2,0.4-0.3L447,109.2V378.2z"/>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                <g>
+                </g>
+                </svg>
+            </div>
+            <p class="mail_text">hussainkelarno@gmail.com</p>
+
+            <div class="phone">
+                <svg width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M18.403 5.633A8.919 8.919 0 0 0 12.053 3c-4.948 0-8.976 4.027-8.978 8.977 0 1.582.413 3.126 1.198 4.488L3 21.116l4.759-1.249a8.981 8.981 0 0 0 4.29 1.093h.004c4.947 0 8.975-4.027 8.977-8.977a8.926 8.926 0 0 0-2.627-6.35m-6.35 13.812h-.003a7.446 7.446 0 0 1-3.798-1.041l-.272-.162-2.824.741.753-2.753-.177-.282a7.448 7.448 0 0 1-1.141-3.971c.002-4.114 3.349-7.461 7.465-7.461a7.413 7.413 0 0 1 5.275 2.188 7.42 7.42 0 0 1 2.183 5.279c-.002 4.114-3.349 7.462-7.461 7.462m4.093-5.589c-.225-.113-1.327-.655-1.533-.73-.205-.075-.354-.112-.504.112s-.58.729-.711.879-.262.168-.486.056-.947-.349-1.804-1.113c-.667-.595-1.117-1.329-1.248-1.554s-.014-.346.099-.458c.101-.1.224-.262.336-.393.112-.131.149-.224.224-.374s.038-.281-.019-.393c-.056-.113-.505-1.217-.692-1.666-.181-.435-.366-.377-.504-.383a9.65 9.65 0 0 0-.429-.008.826.826 0 0 0-.599.28c-.206.225-.785.767-.785 1.871s.804 2.171.916 2.321c.112.15 1.582 2.415 3.832 3.387.536.231.954.369 1.279.473.537.171 1.026.146 1.413.089.431-.064 1.327-.542 1.514-1.066.187-.524.187-.973.131-1.067-.056-.094-.207-.151-.43-.263"/></svg>
+            </div>
+            <a class="phone_text" href="https://wa.me/6285156480383" style="text-decoration:none">+6285156480383</a>
+
+        </div>
+        <div>
+            <hr class="hr__line2">
+            <p class="copyright">© 2021 Group 4 All rights reserved</p>
+        </div>
+
+        
+    
+    </section>
+    
+</body>
+</html>
